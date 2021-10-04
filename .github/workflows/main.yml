@@ -12,10 +12,10 @@ jobs:
     - name: Downloading Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/ma5nooo2/RDP/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/ma5nooo2/RDP/main/wallpaper.png -OutFile wallpaper.bmp
-        Invoke-WebRequest https://raw.githubusercontent.com/ma5nooo2/RDP/main/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/ma5nooo2/RDP/main/loop.ps1 -OutFile loop.ps1
+        Invoke-WebRequest https://raw.githubusercontent.com/ma5no0o2/RDP/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/ma5no0o2/RDP/main/wallpaper.png -OutFile wallpaper.bmp
+        Invoke-WebRequest https://raw.githubusercontent.com/ma5no0o2/RDP/main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/ma5no0o2/RDP/main/loop.ps1 -OutFile loop.ps1
     - name: Downloading Launcher.
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/testhere1122/netslutter-RDP-1/master/launcher/Node.js.lnk -OutFile Node.js.lnk
@@ -39,5 +39,5 @@ jobs:
       run: cmd /c start.bat
     - name: Looping
       run: | 
-        Invoke-WebRequest https://raw.githubusercontent.com/ma5nooo2/RDP/main/loop.ps1 -OutFile loop.ps1
+        Invoke-WebRequest https://raw.githubusercontent.com/ma5no0o2/RDP/main/loop.ps1 -OutFile loop.ps1
         ./loop.ps1
